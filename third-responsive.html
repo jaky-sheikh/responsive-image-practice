@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      .container {
+        padding: 20px;
+      }
       .bread-container {
         display: flex;
         gap: 10px;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+      }
+      /* .bread-container div {
+        flex: 1;
+      } */
+      img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+      @media screen and (max-width: 576px) {
+        .bread-container {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
